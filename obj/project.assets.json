@@ -437,24 +437,32 @@
     ]
   },
   "packageFolders": {
-    "/home/fj/.nuget/packages/": {}
+    "C:\\Users\\FJ\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/run/media/fj/Archivos/Api/C#/FJCO20240904/FJCO20240904.csproj",
+      "projectUniqueName": "D:\\Api\\C#\\FJCO20240904\\FJCO20240904.csproj",
       "projectName": "FJCO20240904",
-      "projectPath": "/run/media/fj/Archivos/Api/C#/FJCO20240904/FJCO20240904.csproj",
-      "packagesPath": "/home/fj/.nuget/packages/",
-      "outputPath": "/run/media/fj/Archivos/Api/C#/FJCO20240904/obj/",
+      "projectPath": "D:\\Api\\C#\\FJCO20240904\\FJCO20240904.csproj",
+      "packagesPath": "C:\\Users\\FJ\\.nuget\\packages\\",
+      "outputPath": "D:\\Api\\C#\\FJCO20240904\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/fj/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\FJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -467,6 +475,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -489,16 +502,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.32, 6.0.32]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[6.0.32, 6.0.32]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -507,7 +510,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.107/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
